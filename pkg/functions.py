@@ -48,11 +48,8 @@ def promedio_tipo(data):
 
     return tipo, acum
 
-#Crear diccionario vacio key genero value acum y cuando llege un genero nuev usar append para agregarla
-#Usar values() para obtener los valores de genero y recorrerlos para acumularlos
-
 def anime_genero(data):
-    """Obtiene la cantidad de generos que aparece en un anime"""
+    """Obtiene la cantidad de veces que aparece un genero en un anime"""
     dict_generos = {}
     for row in data:
         generos = row['genre'].split(', ') # Divide la cadena en una lista
