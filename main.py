@@ -55,7 +55,7 @@ def main():
                 id_serie = input('Ingresa el id de la serie a buscar: ')
                 pkg.functions.mostrar_por_id(data, id_serie)
         else:
-            print('Primero debes cargar el archivo,')
+            print('Primero debes cargar el archivo.')
 
 if __name__ == '__main__':
     main()
